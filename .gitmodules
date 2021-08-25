@@ -1,0 +1,3 @@
+[submodule "src/ams"]
+	path = src/ams
+	url = https://github.com/availabs/ams.git

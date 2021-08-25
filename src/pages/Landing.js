@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Landing = () =>
-  <div className="flex-1 flex items-center justify-center flex-col">
+  <div className="h-full flex items-center justify-center flex-col">
     <div className="text-2xl font-bold">Welcome</div>
     <div className="text-xl">Please add new pages!</div>
     <div className="flex items-center justify-center">
@@ -17,8 +17,7 @@ const config = {
   layoutSettings: {
     fixed: true,
     headerBar: false,
-    logo: "AVAIL",
-    navBar: false
+    nav: "side"
   }
 }
 
